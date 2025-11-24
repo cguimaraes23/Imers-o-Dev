@@ -1,0 +1,181 @@
+[
+  {
+    "nome": "Aussie Coffee",
+    "local": "Ipanema, Rio de Janeiro - RJ",
+    "descricao": "Ambiente descontraído com temática australiana e café de alta qualidade.",
+    "logo": "Imagem/AussieCoffe.png",
+    "link": "https://www.instagram.com/aussiecoffeebrasil",
+    "comodidades": {
+      "tomadas": "Muitas",
+      "wifi": "Estável",
+      "ruido": "Médio"
+    },
+    "tags": [
+      "ipanema",
+      "wifi",
+      "tomadas",
+      "cafe especial"
+    ]
+  },
+  {
+    "nome": "Selina Lapa",
+    "local": "Lapa, Rio de Janeiro - RJ",
+    "descricao": "Espaço de coworking integrado a um hotel, ideal para networking e trabalho focado.",
+    "logo": "Imagem/Selina.jpg",
+    "link": "https://www.instagram.com/selinabrazil/",
+    "comodidades": {
+      "tomadas": "Muitas",
+      "wifi": "Rápido",
+      "ruido": "Baixo"
+    },
+    "tags": [
+      "lapa",
+      "coworking",
+      "comunidade",
+      "wifi rapido"
+    ]
+  },
+  {
+    "nome": "DarkCoffee",
+    "local": "Centro, Rio de Janeiro - RJ",
+    "descricao": "Foco em cafés especiais e um ambiente mais intimista e moderno no centro da cidade.",
+    "logo": "Imagem/darkcoffee.jpg",
+    "link": "https://www.instagram.com/darkcoffeebr",
+    "comodidades": {
+      "tomadas": "Poucas",
+      "wifi": "Estável",
+      "ruido": "Baixo"
+    },
+    "tags": [
+      "centro",
+      "cafe especial",
+      "minimalista"
+    ]
+  },
+  {
+    "nome": "The Slow Bakery",
+    "local": "Botafogo, Rio de Janeiro - RJ",
+    "descricao": "Padaria artesanal com um ambiente charmoso, perfeita para trabalhar em horários de menor movimento.",
+    "logo": "Imagem/Slow.jpg",
+    "link": "https://www.instagram.com/theslowbakery/",
+    "comodidades": {
+      "tomadas": "Poucas",
+      "wifi": "Estável",
+      "ruido": "Médio"
+    },
+    "tags": [
+      "botafogo",
+      "padaria",
+      "brunch",
+      "fermentacao natural"
+    ]
+  },
+  {
+    "nome": "Talho Capixaba",
+    "local": "Leblon, Rio de Janeiro - RJ",
+    "descricao": "Padaria e delicatessen sofisticada, excelente para um café da manhã produtivo.",
+    "logo": "Imagem/Talho.jpg",
+    "link": "https://www.instagram.com/talho_capixaba/",
+    "comodidades": {
+      "tomadas": "Poucas",
+      "wifi": "Estável",
+      "ruido": "Médio"
+    },
+    "tags": [
+      "leblon",
+      "ipanema",
+      "padaria",
+      "brunch"
+    ]
+  },
+  {
+    "nome": "Café 18 do Forte",
+    "local": "Copacabana, Rio de Janeiro - RJ",
+    "descricao": "Localizado no Forte de Copacabana, oferece uma vista deslumbrante para o mar.",
+    "logo": "Imagem/cafe18.jpg",
+    "link": "https://www.instagram.com/cafe18doforte/",
+    "comodidades": {
+      "tomadas": "Poucas",
+      "wifi": "Estável",
+      "ruido": "Médio"
+    },
+    "tags": [
+      "copacabana",
+      "vista",
+      "turistico",
+      "cafe"
+    ]
+  },
+  {
+    "nome": "Plage Café",
+    "local": "Jardim Botânico, Rio de Janeiro - RJ",
+    "descricao": "Café charmoso dentro do Parque Lage, com vista para o Cristo Redentor.",
+    "logo": "Imagem/plagecafe.jpg",
+    "link": "https://www.instagram.com/plagecafe/",
+    "comodidades": {
+      "tomadas": "Poucas",
+      "wifi": "Estável",
+      "ruido": "Médio"
+    },
+    "tags": [
+      "jardim botanico",
+      "parque lage",
+      "vista",
+      "brunch"
+    ]
+  },
+  {
+    "nome": "Maya Café",
+    "local": "Laranjeiras, Rio de Janeiro - RJ",
+    "descricao": "Cafeteria aconchegante e tranquila, ótima para se concentrar.",
+    "logo": "Imagem/mayacafe.jpg",
+    "link": "https://www.instagram.com/_mayacafe_",
+    "comodidades": {
+      "tomadas": "Muitas",
+      "wifi": "Estável",
+      "ruido": "Baixo"
+    },
+    "tags": [
+      "laranjeiras",
+      "tranquilo",
+      "wifi",
+      "tomadas"
+    ]
+  },
+  {
+    "nome": "Empório Jardim",
+    "local": "Jardim Botânico, Rio de Janeiro - RJ",
+    "descricao": "Famoso pelo seu premiado café da manhã, o ambiente é vibrante e inspirador.",
+    "logo": "Imagem/emporiojardim.jpg",
+    "link": "https://www.instagram.com/emporiojardimrio",
+    "comodidades": {
+      "tomadas": "Poucas",
+      "wifi": "Estável",
+      "ruido": "Alto"
+    },
+    "tags": [
+      "jardim botanico",
+      "ipanema",
+      "brunch",
+      "premiado"
+    ]
+  },
+  {
+    "nome": "Le Pain du Lapin",
+    "local": "Copacabana, Rio de Janeiro - RJ",
+    "descricao": "Boulangerie com um toque francês, ideal para quem busca tranquilidade e bons pães.",
+    "logo": "Imagem/lapaindulapin.jpg",
+    "link": "https://www.instagram.com/lepaindulapin/",
+    "comodidades": {
+      "tomadas": "Poucas",
+      "wifi": "Estável",
+      "ruido": "Baixo"
+    },
+    "tags": [
+      "copacabana",
+      "boulangerie",
+      "frances",
+      "tranquilo"
+    ]
+  }
+]

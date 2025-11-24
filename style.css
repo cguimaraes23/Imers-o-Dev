@@ -1,0 +1,236 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+/* Reset básico e estilos globais */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; /* Garante que padding e border não afetem o tamanho final do elemento */
+}
+
+body {
+    font-family: "Funnel Display", sans-serif;
+    background-color: #ffffff; /* Cor de fundo da página (bege claro) */
+    color: #000000; /* Cor principal do texto (cinza escuro) */
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; /* Garante que o body ocupe toda a altura da tela */
+}
+
+/* Estilos do Cabeçalho */
+header {
+    background-color: #4d2708; /* Cor de fundo do cabeçalho (marrom/oliva escuro) */
+    padding: 15px 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Sombra leve para o cabeçalho (preto com 10% de opacidade) */
+    border-bottom: 3px solid #a0522D; /* Borda inferior do cabeçalho (azul brilhante) */
+}
+
+.header-title-container {
+    display: flex;
+    align-items: center;
+    gap: 15px; /* Espaço entre o logo e o título */
+}
+
+.header-title-container img {
+    width: 50px; /* Ajuste o tamanho do logo se necessário */
+    height: auto;
+}
+
+header h1 {
+    color: #ffc107; /* Cor do título principal (azul brilhante) */
+    color: #ffc107; /* Cor do título principal (amarelo/dourado) */
+    margin: 0; /* Remove margens que podem atrapalhar o alinhamento */
+font-family: "Poppins", sans-serif;
+    font-size: 2rem; /* Define o tamanho da fonte. 'rem' é uma unidade relativa. */
+    font-weight: 600; /* Define a "grossura" da fonte (300=fina, 800=muito grossa) */
+}
+
+.search-container {
+    position: relative; /* Necessário para posicionar o ícone da lupa */
+    display: flex;
+    align-items: center;
+}
+
+header input[type="text"] {
+    padding: 10px 40px 10px 15px; /* Adiciona espaço à direita para o ícone */
+    width: 300px;
+    border: 1px solid #ccc; /* Borda do campo de busca (cinza claro) */
+    border-radius: 15px;
+    font-size: 1rem;
+}
+
+.search-icon {
+    position: absolute; /* Posiciona o ícone sobre o input */
+    right: 5px; /* Distância da borda direita */
+    width: 40px;  /* Diminui a largura da imagem */
+    height: 20px; /* Diminui a altura da imagem */
+    cursor: pointer; /* Muda o cursor para indicar que é clicável */
+}
+
+header input[type="text"]:focus {
+    outline: none;
+    border-color: #B9B28A; /* Cor da borda do campo de busca quando selecionado (oliva claro) */
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5); /* Sombra/brilho ao redor do campo de busca (azul com 50% de opacidade) */
+}
+
+/* Estilos do Conteúdo Principal */
+main {
+    flex: 1; /* Faz o main crescer para ocupar o espaço disponível */
+    padding: 10px 10px; /* 20px para cima/baixo e 40px para as laterais */
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto; /* Centraliza o conteúdo principal */
+}
+
+.cover-container {
+    width: 100%;
+    height: 300px; /* Você pode ajustar a altura conforme preferir */
+    background-image: url('../Imagem/Capa.PNG'); /* Coloque o caminho para sua imagem aqui */
+    background-size: cover; /* Faz a imagem cobrir todo o container */
+    background-position: center; /* Centraliza a imagem */
+    background-repeat: no-repeat;
+    border-radius: 8px; /* Cantos arredondados para combinar com os cards */
+    margin-top: 20px; /* Espaço acima da imagem */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra suave */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.section-title {
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-size: 2rem;
+    font-weight: 500;
+    color: #4d2708; /* Usando a cor marrom do cabeçalho para consistência */
+}
+
+.section-subtitle {
+    text-align: center;
+    margin-top: -20px; /* Puxa o subtítulo para mais perto do título */
+    margin-bottom: 40px;
+    font-size: 1.2rem;
+    font-weight: 300; /* Deixa a fonte um pouco mais leve */
+    color: #4b4545; /* Um cinza escuro para o texto */
+}
+
+main section {
+    /* Estilos para a seção onde o conteúdo da busca será exibido */
+    /* Exemplo: você pode usar display: grid ou flex para organizar os resultados */
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    justify-content: center; /* Centraliza os cards horizontalmente */
+    gap: 20px;
+}
+
+/* Estilos dos Cards */
+.card {
+    background-color: #fdfaf2; /* Um bege bem claro para o fundo do card */
+    border: 1px solid #e0d9c6; /* Borda sutil */
+    border-radius: 8px; /* Cantos arredondados */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05); /* Sombra leve */
+    overflow: hidden; /* Garante que nada saia dos cantos arredondados */
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    padding: 50px; /* Aumenta o espaço interno de cada card */
+}
+
+.card:hover {
+    transform: translateY(-5px); /* Efeito de levantar ao passar o mouse */
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+}
+
+.card-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Centraliza os itens horizontalmente */
+    height: 100%; /* Garante que o flex container ocupe todo o espaço do card */
+    text-align: center; /* Centraliza o texto para os elementos que não são flex items diretos */
+}
+
+.card-logo {
+    display: block; /* Para poder centralizar com margin */
+    margin: 0 auto 15px auto; /* Centraliza horizontalmente e adiciona espaço abaixo */
+    width: 80px; /* Largura da logo */
+    height: 80px; /* Altura da logo */
+    object-fit: contain; /* Garante que o logo não fique distorcido */
+}
+
+.card-content h2 {
+    color: #5D4037; /* Marrom escuro para o título */
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.card-content p {
+    margin-bottom: 20px;
+    line-height: 1.3;
+    font-size: 1 rem; /* Ajusta o tamanho da fonte da descrição */
+    text-align: left; /* Alinha o texto da descrição à esquerda */
+}
+
+.card-content a {
+    color: #ffffff; /* Cor do link (Sienna) */
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.comodidades {
+    flex-grow: 0.3; /* Faz esta seção crescer para empurrar o botão para baixo */
+    margin-top: 5px;
+    margin-bottom: 10px;
+    padding-top: 10px;
+    border-top: 1px solid #e0d9c6; /* Linha separadora sutil */
+}
+
+.comodidades p {
+    font-size: 0.85rem; /* Fonte um pouco menor para as comodidades */
+    margin-bottom: 7px; /* Espaçamento menor entre os itens */
+    color: #333;
+}
+
+.btn-visitar {
+    background-color: #a0522D; /* Cor Sienna, a mesma dos links */
+    color: #ffffff; /* Texto branco para contraste */
+    padding: 10px 10px;
+    margin-top: 1px; /* Espaço acima do botão */
+    border-radius: 5px; /* Cantos arredondados */
+    text-align: center;
+    text-decoration: none;
+    width: 100%; /* Faz o botão ocupar a largura disponível */
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+.btn-visitar:hover {
+    background-color: #8B4513; /* Um tom de marrom mais escuro para o hover */
+}
+
+/* Estilos do Rodapé */
+footer {
+    background-color: #4d2708; /* Cor de fundo do rodapé (cinza bem escuro/carvão) */
+    color: white; /* Cor do texto do rodapé (branco) */
+    padding: 10px;
+    text-align: center;
+    border-bottom: 3px solid #a0522D; /* Borda inferior do cabeçalho (azul brilhante) */
+}
+
+footer ul {
+    list-style: none; /* Remove os marcadores da lista */
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+footer a {
+    color: #ffc107; /* Cor dos links no rodapé (branco) */
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+footer a:hover {
+    color: #ffffff; /* Cor dos links no rodapé ao passar o mouse (azul brilhante) */
+    text-decoration: underline;
+}
