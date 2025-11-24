@@ -18,7 +18,7 @@
     ]
   },
   {
-    "nome": "Selina Lapa",
+    "nome": "Selina",
     "local": "Lapa, Rio de Janeiro - RJ",
     "descricao": "Espaço de coworking integrado a um hotel, ideal para networking e trabalho focado.",
     "logo": "Imagem/Selina.jpg",
@@ -178,4 +178,5 @@
       "tranquilo"
     ]
   }
+
 ]
